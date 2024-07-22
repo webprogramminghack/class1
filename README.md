@@ -4,7 +4,7 @@
 
 Please see the design here:
 
-https://www.figma.com/design/DTbrQwnfSuIbwZSg4bwR20/Untitled?node-id=0-1&t=BTVHzgvUOFINmWUO-1
+<a href="https://www.figma.com/design/DTbrQwnfSuIbwZSg4bwR20/Untitled?node-id=0-1&t=BTVHzgvUOFINmWUO-1" target="_blank">https://www.figma.com/design/DTbrQwnfSuIbwZSg4bwR20/Untitled?node-id=0-1&t=BTVHzgvUOFINmWUO-1</a>
 
 ## Your task
 
