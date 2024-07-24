@@ -7,22 +7,115 @@
   </head>
   <body>
     <header>
-      <div class="container"></div>
+      <div class="container">
+        <div class="left-nav">
+          <img src="./assets/svg/logo.svg" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="right-nav">
+          <button class="btn primary">Log in</button>
+          <button class="btn secondary">Sign up</button>
+        </div>
+      </div>
     </header>
 
     <main>
       <section class="contact">
-        <div class="container"></div>
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact-header">
+              <span>Contact us</span>
+              <h2>Get in touch</h2>
+              <p>We'd love to hear from you. Please fill out this form.</p>
+            </div>
+            <div class="contact-content">
+              <label for="fName">First Name</label>
+              <input
+                type="text"
+                class="contactContent"
+                placeholder="First Name"
+                id="fName"
+              />
+
+              <label for="lName">Last Name</label>
+              <input
+                type="text"
+                class="contactContent"
+                placeholder="Last Name"
+                id="lName"
+              />
+
+              <br />
+              <br />
+
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="contactContent"
+                placeholder="you@company.com"
+                id="email"
+              />
+
+              <br />
+              <br />
+
+              <label for="phone">PhoneNumber</label>
+              <input
+                type="text"
+                class="contactContent"
+                placeholder="+1 (555) 000-0000"
+                id="phone"
+              />
+
+              <br />
+              <br />
+
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Leave us a message"
+              ></textarea>
+
+              <br />
+              <br />
+
+              <input type="checkbox" name="privacy" id="privacy" value="yes" />
+              <label for="privacy"
+                >You agree to our friendly <a href="#">privacy policy</a></label
+              >
+
+              <br />
+              <br />
+
+              <button type="submit" class="btn secondary">Send Message</button>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer>
       <section class="cta">
-        <div class="container"></div>
+        <div class="container">
+          <h3>No long-term contracts. no catches. Simple.</h3>
+          <p>Start your 30-day free trial. Cancel anytime</p>
+          <img src="./assets/svg/play-circle.svg" alt="play-circle" />
+          <button class="btn primary">View demo</button>
+          <button class="btn secondary">Get started</button>
+        </div>
       </section>
 
       <section class="copyright">
-        <div class="container"></div>
+        <div class="container">
+          <hr />
+          <p>&copy 20234 Web Programming Hack. All rights reserved.</p>
+        </div>
       </section>
     </footer>
   </body>
