@@ -3,28 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Testing Document</title>
+    <title>Document</title>
   </head>
   <body>
-    <h1>Testing</h1>
-
     <header>
       <div class="container"></div>
+      <div>
+        <img src="assets/svg/logo.svg" />
+      </div>
+      <div><h2>WPH</h2></div>
+      <ul>
+        <li>Home</li>
+        <li>Products</li>
+        <li>Resources</li>
+        <li>Pricing</li>
+      </ul>
     </header>
 
     <main>
       <section class="contact">
-        <div class="container"></div>
+        <div class="container">
+          <p>Contact Us</p>
+          <h1>Get in touch</h1>
+          <p>We'd Love to hear from you, Please</p>
+
+          <form action="/submit" method="post">
+            <label for="firstname">First Name</label>
+            <input
+              type="text"
+              id="firstname"
+              placeholder="First name"
+              name="firstname"
+            />
+            <label for="lastname">Last Name</label>
+            <input
+              type="text"
+              id="lastname"
+              placeholder="Last name"
+              name="lastname"
+            />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="you@company.com"
+              name="email"
+            />
+            <label for="phonenumber">Phone number</label>
+            <input
+              type="text"
+              id="phonenumber"
+              placeholder="+1 (555) 000-0000"
+              name="phonenumber"
+            />
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Leave us a message"></textarea>
+
+            <div>
+              <input type="checkbox" /> You agree to our friendly privacy policy
+            </div>
+
+            <button>Send message</button>
+          </form>
+        </div>
       </section>
     </main>
 
     <footer>
       <section class="cta">
-        <div class="container"></div>
+        <div class="container">
+          <h2>No long-term contracts. No catches. Simple.</h2>
+          <h3>Start your 30-day free trial. Cancel anytime.</h3>
+          <button>View demo</button><button>Get dtarted</button>
+        </div>
       </section>
 
       <section class="copyright">
-        <div class="container"></div>
+        <div class="container">
+          <p>&copy;2024 Web Progarmming Hack. All rights reserved.</p>
+        </div>
       </section>
     </footer>
   </body>
