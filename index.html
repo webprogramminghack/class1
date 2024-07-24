@@ -3,27 +3,127 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Assignments class 1</title>
   </head>
   <body>
     <header>
-      <div class="container"></div>
+      <div class="container">
+        <div class="header-wrapper">
+
+          <div class="header-left">
+            <div class="logo">
+              <img src="/assets/svg/logo.svg" alt="logo"/>
+            </div>
+            <nav>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Pricing</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="header-right">
+            <div class="login-btn">
+              <a href="">Log in</a>
+            </div>
+            <div class="sign-out-btn">
+              <button>Sign up</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </header>
 
     <main>
       <section class="contact">
-        <div class="container"></div>
+        <div class="container">
+
+          <div class="contact-wrapper">
+
+            <div class="contact-header">
+              <span>Contact us</span>
+              <h2>Get in touch</h2>
+              <p>We’d love to hear from you. Please fill out this form.</p>
+            </div>
+
+            <div class="contact-form">
+              <form>
+                <div class="double-field">
+                  <div class="form-control">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" value="" id="first-name" placeholder="First name" />
+                  </div>
+                  <div class="form-control">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" value="" id="last-name" placeholder="Last name" />
+                  </div>
+                </div>
+
+                <div class="single-field">
+                  <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" value="" id="email" placeholder="you@company.com" />
+                  </div>
+                </div>
+
+                <div class="single-field">
+                  <div class="form-control">
+                    <label for="phone">Phone number</label>
+                    <input type="number" name="phone" value="" id="phone" placeholder="+1 (555) 000-0000" />
+                  </div>
+                </div>
+
+                <div class="single-field">
+                  <div class="form-control">
+                    <label for="message">Message</label>
+                    <textarea placeholder="Leave us a message..." rows="5" id="message"></textarea>
+                  </div>
+                </div>
+
+                <div class="check-policy">
+                  <input type="checkbox" name="policy" id="policy" value="policy" />
+                  <label for="policy">You agree to our friendly <a href="">privacy policy</a>.</label>
+                </div>
+
+                <button>Send Message</button>
+
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer>
       <section class="cta">
-        <div class="container"></div>
+        <div class="container">
+          <div class="cta-wrapper">
+
+            <div class="cta-header">
+              <h3>No long-term contracts. No catches. Simple.</h3>
+              <p>Start your 30-day free trial. Cancel anytime.</p>
+            </div>
+
+            <div class="button-cta">
+              <button><img src="/assets/svg/play-circle.svg" alt="demo" />View demo</button>
+              <button>Get started</button>
+            </div>
+
+          </div>
+        </div>
       </section>
 
       <section class="copyright">
-        <div class="container"></div>
+        <div class="container">
+          <div class="copyright-wrapper">
+            © 2024 Web Programming Hack. All rights reserved.
+          </div>
+        </div>
       </section>
+      
     </footer>
   </body>
 </html>
