@@ -29,7 +29,7 @@
               <a href="">Log in</a>
             </div>
             <div class="sign-out-btn">
-              <button>Sign up</button>
+              <button class="btn-primary">Sign up</button>
             </div>
           </div>
 
@@ -51,7 +51,7 @@
 
             <div class="contact-form">
               <form>
-                <div class="double-field">
+                <div class="input-group">
                   <div class="form-control">
                     <label for="first-name">First name</label>
                     <input type="text" name="first-name" value="" id="first-name" placeholder="First name" />
@@ -62,21 +62,21 @@
                   </div>
                 </div>
 
-                <div class="single-field">
+                <div class="input-group">
                   <div class="form-control">
                     <label for="email">Email</label>
                     <input type="email" name="email" value="" id="email" placeholder="you@company.com" />
                   </div>
                 </div>
 
-                <div class="single-field">
+                <div class="input-group">
                   <div class="form-control">
                     <label for="phone">Phone number</label>
-                    <input type="number" name="phone" value="" id="phone" placeholder="+1 (555) 000-0000" />
+                    <input type="tel" name="phone" value="" id="phone" placeholder="+1 (555) 000-0000" />
                   </div>
                 </div>
 
-                <div class="single-field">
+                <div class="input-group">
                   <div class="form-control">
                     <label for="message">Message</label>
                     <textarea placeholder="Leave us a message..." rows="5" id="message"></textarea>
@@ -88,7 +88,7 @@
                   <label for="policy">You agree to our friendly <a href="">privacy policy</a>.</label>
                 </div>
 
-                <button>Send Message</button>
+                <button class="btn-primary">Send Message</button>
 
               </form>
             </div>
@@ -108,8 +108,13 @@
             </div>
 
             <div class="button-cta">
-              <button><img src="/assets/svg/play-circle.svg" alt="demo" />View demo</button>
-              <button>Get started</button>
+              <button class="btn-secondary">
+                <img src="/assets/svg/play-circle.svg" alt="demo" />
+                <span>View demo</span>
+              </button>
+              <button class="btn-primary">
+                Get started
+              </button>
             </div>
 
           </div>
