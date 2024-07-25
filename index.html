@@ -38,12 +38,12 @@
               <form action="">
                 <div class="contact-name">
                   <div class="contact-first-name">
-                    <label for="first-name">First name</label>
-                    <input type="text" name="first-name" id="first-name" placeholder="First name">
+                    <label for="firstName">First name</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="First name">
                   </div>
                   <div class="contact-last-name">
-                    <label for="last-name">Last name</label>
-                    <input type="text" name="last-name" id="last-name" placeholder="Last name">
+                    <label for="lastName">Last name</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Last name">
                   </div>
                 </div>
                 <div class="contact-email">
@@ -51,14 +51,17 @@
                   <input type="email" name="email" id="email" placeholder="you@company.com">
                 </div>
                 <div class="contact-phone-number">
-                  <label for="phone-number">Phone number</label>
-                  <input type="text" name="phone-number" placeholder="+1 (555) 000-0000">
+                  <label for="phoneNumber">Phone number</label>
+                  <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="+1 (555) 000-0000">
                 </div>
                 <div class="contact-message">
                   <label for="message">Message</label>
                   <textarea name="message" id="message" placeholder="Leave us a message..."></textarea>
                 </div>
-                <p>You agree to our friendly <a href="">privacy policy</a>.</p>
+                <div class="consent-agreement">
+                  <input type="checkbox" id="privacyPolicy">
+                  <label for="privacyPolicy">You agree to our friendly <a href="#">privacy policy</a>.</label>
+                </div>
                 <button>Send message</button>
               </form>
             </div>
