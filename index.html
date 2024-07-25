@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>HTML Assignment</title>
   </head>
   <body>
     <header>
@@ -25,50 +25,47 @@
       </div>
     </header>
 
-    <!-- test -->
-
     <main>
       <section class="contact">
         <div class="container">
 
-          <div class="contact-header">
-            <span>Contact us</span>
-            <h1>Get in touch</h1>
-            <p>We'd love to hear from you. Please fill out this form.</p>
-          </div>
-
           <div class="contact-wrapper">
-            <form action="">
-              <div class="contact-content">
-                <label for="first_name">First Name</label>
-                <input type="text" name="first_name" id="first_name">
-              </div>
-              <div class="contact-content">
-                <label for="last_name">Last Name</label>
-                <input type="text" name="last_name" id="last_name">
-              </div>
-              <div class="contact-content">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email">
-              </div>
-              <div class="contact-content">
-                <label for="phone_number">Phone Number</label>
-                <input type="text" name="phone_number" id="phone_number">
-              </div>
-              <div class="contact-content">
-                <label for="message">Message</label>
-                <textarea name="message" rows="4" id="message">Leave us a message...</textarea>
-              </div>
-              <div class="contact-content">
-                <input type="checkbox" name="privacy_policy" id="privacy_policy">
-                <label for="privacy_policy">You agree to our friendly <u>privacy policy</u></label>
-              </div>
-              <div class="form-submit">
+            <div class="contact-header">
+              <span>Contact us</span>
+              <h1>Get in touch</h1>
+              <p>We'd love to hear from you. Please fill out this form.</p>
+            </div>
+  
+            <div class="contact-content">
+              <form action="">
+                <div class="input-group">
+                  <label for="first_name">First Name</label>
+                  <input type="text" name="first_name" id="first_name">
+                </div>
+                <div class="input-group">
+                  <label for="last_name">Last Name</label>
+                  <input type="text" name="last_name" id="last_name">
+                </div>
+                <div class="input-group">
+                  <label for="email">Email</label>
+                  <input type="text" name="email" id="email">
+                </div>
+                <div class="input-group">
+                  <label for="phone_number">Phone Number</label>
+                  <input type="tel" name="phone_number" id="phone_number">
+                </div>
+                <div class="input-group">
+                  <label for="message">Message</label>
+                  <textarea name="message" rows="4" id="message">Leave us a message...</textarea>
+                </div>
+                <div class="input-group">
+                  <input type="checkbox" name="privacy_policy" id="privacy_policy">
+                  <label for="privacy_policy">You agree to our friendly <u>privacy policy</u></label>
+                </div>
                 <button type="submit">Send message</button>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
-
 
         </div>
       </section>
@@ -82,7 +79,10 @@
             <span>Start your 30-day free trial. Cancel anytime.</span>
           </div>
           <div class="cta-buttons">
-            <button><img src="./assets/svg/play-circle.svg" alt="View Demo">View Demo</button>
+            <button>
+              <img src="./assets/svg/play-circle.svg" alt="View Demo">
+              <span>View Demo</span>
+            </button>
             <button>Get started</button>
           </div>
         </div>
