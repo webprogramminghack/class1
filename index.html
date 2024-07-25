@@ -3,26 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Untitled - Figma</title>
   </head>
   <body>
     <header>
-      <div class="container"></div>
+      <div class="container">
+        <img src="./assets/svg/logo.svg" alt="wph logo" />
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </nav>
+        <div class="login-button">
+          <button class="btn primary-btn">Log In</button>
+          <button class="btn secondary-btn">Sign Up</button>
+        </div>
+      </div>
     </header>
 
     <main>
       <section class="contact">
-        <div class="container"></div>
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact-header">
+              <span>Contact us</span>
+              <h1>Get in touch</h1>
+              <p>We'd love to hear from you. Please fill out this form.</p>
+            </div>
+            <div class="contact-content">
+              <form action="">
+                <div class="name">
+                  <div class="first-name">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" />
+                  </div>
+                  <div class="last-name">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" />
+                  </div>
+                </div>
+                <div class="email">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" />
+                </div>
+                <div class="phone-number">
+                  <label for="phone-number">Phone Number</label>
+                  <input type="number" name="phone-number" id="phone-number" />
+                </div>
+                <div class="message">
+                  <textarea name="messages" id="messages">Messages</textarea>
+                </div>
+                <div class="agree-privacy">
+                  <input
+                    type="checkbox"
+                    name="agree-privacy"
+                    id="agree-privacy"
+                  />
+                  <label for="agree-privacy"
+                    >You agree to our friendly
+                    <a href="#" class="privacy-policy">privacy policy</a>.
+                  </label>
+                </div>
+                <div class="button-submit">
+                  <button type="submit">Send message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer>
       <section class="cta">
-        <div class="container"></div>
+        <div class="container">
+          <div class="cta-header">
+            <p>No long-term contracts. No catches. Simple</p>
+            <p>Start your 30-day free trial. Cancel anytime.</p>
+          </div>
+          <div class="cta-btn">
+            <button class="secondary-btn">
+              <img src="./assets/svg/play-circle.svg" alt="play button" />
+              View demo
+            </button>
+            <button class="primary-btn">Get started</button>
+          </div>
+        </div>
       </section>
 
       <section class="copyright">
-        <div class="container"></div>
+        <div class="container">
+          <p>© 2024 Web Programming Hack. All rights reserved.</p>
+        </div>
       </section>
     </footer>
   </body>
