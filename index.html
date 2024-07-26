@@ -14,10 +14,10 @@
         <div class="navigation">
           <nav>
             <ul>
-              <li>Home</li>
-              <li>Products</li>
-              <li>Resources</li>
-              <li>Pricing</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Pricing</a></li>
             </ul>
           </nav>
         </div>
@@ -31,68 +31,68 @@
     <main>
       <section class="contact">
         <div class="container">
-          <div class="header">
-            <h6>Contact us</h6>
-            <h1>Get in touch</h1>
-            <p>We'd love te hear from you. Please fill out this form.</p>
+          <div class="content">
+            <div class="header">
+              <h6>Contact us</h6>
+              <h1>Get in touch</h1>
+              <p>We'd love te hear from you. Please fill out this form.</p>
+            </div>
+            <form class="form">
+              <div class="nameinput">
+                <div class="firstname">
+                  <label for="firstname">First name</label>
+                  <input
+                    type="text"
+                    name="firstname"
+                    id="firstname"
+                    placeholder="First name"
+                  />
+                </div>
+                <div class="lastname">
+                  <label for="lastname">Last name</label>
+                  <input
+                    type="text"
+                    name="lastname"
+                    id="lastname"
+                    placeholder="Last name"
+                  />
+                </div>
+              </div>
+              <div class="email">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="you@company.com"
+                />
+              </div>
+              <div class="phonenumber">
+                <label for="phonenumber">Phone number</label>
+                <input
+                  type="tel"
+                  name="phonenumber"
+                  id="phonenumber"
+                  placeholder="+1 (555) 000-0000"
+                />
+              </div>
+              <div class="message">
+                <label for="message">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Leave us a message..."
+                ></textarea>
+              </div>
+              <div class="agreement">
+                <input type="checkbox" name="agree" id="agree" /><label
+                  for="agree"
+                  >You agree to our friendly <a href="#">privacy policy</a>
+                </label>
+              </div>
+              <input class="btnsend" type="submit" value="Send message" />
+            </form>
           </div>
-          <form class="form">
-            <div class="nameinput">
-              <div class="firstname">
-                <label for="firstname">First name</label>
-                <input
-                  type="text"
-                  name="firstname"
-                  id="firstname"
-                  placeholder="First name"
-                />
-              </div>
-              <div class="lastname">
-                <label for="lastname">Last name</label>
-                <input
-                  type="text"
-                  name="lastname"
-                  id="lastname"
-                  placeholder="Last name"
-                />
-              </div>
-            </div>
-            <div class="email">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="you@company.com"
-              />
-            </div>
-            <div class="phonenumber">
-              <label for="phonenumber">Phone number</label>
-              <input
-                type="text"
-                name="phonenumber"
-                id="phonenumber"
-                placeholder="+1 (555) 000-0000"
-              />
-            </div>
-            <div class="message">
-              <label for="message">Message</label>
-              <textarea
-                name="message"
-                id="message"
-                placeholder="Leave us a message..."
-              ></textarea>
-            </div>
-            <div class="agreement">
-              <input type="checkbox" name="agree" id="agree" /><label
-                for="agree"
-                >You agree to our friendly <a href="#">privacy policy</a>
-              </label>
-            </div>
-            <div class="btnsend">
-              <input type="submit" value="Send message" />
-            </div>
-          </form>
         </div>
       </section>
     </main>
