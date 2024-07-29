@@ -7,22 +7,84 @@
   </head>
   <body>
     <header>
-      <div class="container"></div>
+      <div class="container">
+        <img src="./assets/svg/logo.svg" alt="Logo Image">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </nav>
+    
+      </div>
+      <div class="header-action">
+        <button Class="btn secondary-btn">Log In</button>
+        <button Class="btn primary-btn">Sign Up</button>
+      </div>
     </header>
 
     <main>
       <section class="contact">
-        <div class="container"></div>
+        <div class="container">
+          <div class="contact-page-header">
+            <span>Contact Us</span>
+            <H2>Get in touch</H2>
+            <p>We'd love to hear from you. Please fill out this form</p>
+          </div>
+          <form action="#">
+            <div Class="name">
+              <div class="first name">
+                <label for="first name">First Name</label>
+                <input type="first name" name="first name" id="first name" placeholder="First name" />
+              </div>
+              <div class="last name">
+                <label for="last name">Last name</label>
+                <input type="last name" name="last name" id="last name" placeholder="Last name" />
+              </div>
+            </div>
+            <div class="email">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" placeholder="you@company.com" />
+            </div>
+            <div class="phone number">
+              <label for="phone number">phone number</label>
+              <input type="number" name="phone number" id="phone number" placeholder="+1(555)000-000" />
+            </div>
+            <div class="message">
+              <label for="message">Message</label>
+        <textarea name="message" id="message" rows="4" cols="50"></textarea>
+        <div class="checkbox-section">
+          <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" />
+          <p>You agree to our friendly <a href="#" target="_blank">privacy policy</a></p>
+        </div>
+        <button class="btn primary-btn">Send message</button>
+            </div>
+            
+          </form>
+        </div>
       </section>
     </main>
 
     <footer>
       <section class="cta">
-        <div class="container"></div>
+        <div class="container">
+          <div class="Footer-text">
+            <h2>No Long-term contracts. No Catches. Simple</h2>
+            <p>start your 30-day free trial. cancel anytime</p>
+          </div>
+          <div class="footer-action">
+            <button Class="btn secondary-btn"><img src="./assets/svg/play-circle.svg" alt="">View Demo</button>
+            <button Class="btn primary-btn">Get Started</button>
+          </div>
+        </div>
       </section>
 
       <section class="copyright">
-        <div class="container"></div>
+        <div class="container">
+          <p>© 2024 Web Programming Hack. All rights reserved.</p>
+        </div>
       </section>
     </footer>
   </body>
