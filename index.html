@@ -10,63 +10,87 @@
     <div class="container">
       <img src="./assets/svg/logo.svg" />
       <span>WPH</span>
-      <a href="#">Home</a>
-      <a href="#">Products</a>
-      <a href="#">Resources</a>
-      <a href="#">Pricing</a>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
         <button>Log in</button>
         <button>Sign up</button>
+      </div>     
     </div>
     </header>
+
     <main>
       <section class="contact">
         <div class="container">
-          <h6 class="contact-header">Contact Us</h6>
-          <h1>Get in touch</h1>
-          <h5>We’d love to hear from you. Please fill out this form.</h5>
+          <div class="contact-wrapper">
+            <div class="contact-header">
+              <br>
+              <span>Contact Us</span>
+              <h2>Get in touch</h2>
+              <p>We’d love to hear from you. Please fill out this form.</p>
+            </div>
+            <div class="contact-content">           
+              <div class="name">
+                <div class="first-name">
+                  <label for="first-name">First name</label>
+                  <br>
+                  <input type="text" name="first name" id="first-name" placeholder="First name" />
+                </div>
+                <div class="last-name">
+                  <label for="last-name">Last name</label>
+                  <br>
+                  <input type="text" name="last name" id="last-name" placeholder="Last name" />
+                </div>
+              </div>  
+              <br>
+              <div class="email">
+                <label for="email">Email</label>
+                <br />
+                <input type="email" name="email" id="Email" placeholder="you@company.com" />
+              </div>
+              <div class="phone-number">
+                <label for="phone number"><br>Phone number</label>
+                <br>
+                <input type="tel" phone number="phone number" id="phone number" placeholder="+1 (555)000 0000" />
+                <br>
+              </div>
+              <div class="message">
+                <label for="message"><br>Message</label>
+                <br>
+                <textarea name="message" id="message" placeholder="Leave us a message...""></textarea>
+              </div>
+              <br>
+              <div class="agreement">
+                <input type="checkbox" id="privacypolicy">
+                <label for="privacypolicy">You agree to our friendly <a href="#">privacy policy</a></label>
+              </div> 
+              <br>
+                <button>Send message</button>  
+            </div>
+          </div>
         </div>
       </section>
     </main>
-    <footer>
-      <section class="cta">
-        <div class="container">
-          <div class="contact-name">
-            <label for="First name">First name</label>
-            <label for="Last name">Last name</label>
-            <br>
-            <input type="text" First name=""First name id="First name" placeholder="First name" />
-            <input type="text" Last name="Last name" id="Last name" placeholder="Last name" />
-          </div>
-          <div class="additional-info"
-          <label for="Email"><br>Email</label>
-            <br>
-          <input type="text" Email="Email" id="Email" placeholder="you@company.com" />
-          <br>
-          <label for="phone number"><br>Phone number</label>
-          <br>
-          <input type="text" phone number="phone number" id="phone number" placeholder="+1 (555)000 0000" />
-          <br>
-          <label for="message"><br>Message</label>
-          <br>
-          <input type="text" message="message" id="message" placeholder="Leave us a message..." />  
-          <p>You agree to our friendly <a href="#">privacy policy</a></p>
-          <button>Send message</button>        
-        </div>
-      </section>
 
+    <footer>
       <section class="confirmation">
         <div class="container">
-          <h3 class="confirmation-title">No long-term contracts. No catches. Simple.</h3>
-          <h5 class="confirmation-title">Start your 30-days free trial. Cancel anytime.</h5>
+          <h2>No long-term contracts. No catches. Simple.</h2>
+          <p>Start your 30-days free trial. Cancel anytime.</p>
           <div class="buttons"> 
-            <button><img src="./assets/svg/play-crcle.svg" /> View demo</button>
+            <button>View demo</button>
             <button>Get started</button>
-          </div> 
+          </div>
         </div>
       </section>
-
       <section class="copyright">
-        <h6 class="copyright-title">2024 Web Programming Hack. All rights reserved.</h6>
+        <span>©2024 Web Programming Hack. All rights reserved.</span>
       </section>  
     </footer>
   </body>
