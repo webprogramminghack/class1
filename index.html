@@ -7,22 +7,65 @@
   </head>
   <body>
     <header>
-      <div class="container"></div>
+      <div class="container>"
+        <nav>
+          <a href="#"><img src="logo.svg" alt="WPH Logo" /></a>
+          <a href="#">Home</a>
+          <a href="#">Products</a>
+          <a href="#">Resources</a>
+          <a href="#">Pricing</a>
+          <button>Log in</button>
+          <button>Sign up</button>
+        </nav>
+      </div>
     </header>
 
     <main>
       <section class="contact">
-        <div class="container"></div>
+        <div class="container">
+          <span>Contact Us</span>
+          <h1>Get In Touch</h1>
+          <p>We'd love to Hear from you. Please fill out this form.</p>
+          <form action="#" method="post">
+            <label for="first-name">First name:</label><br />
+            <input type="text" id="first-name" name="first-name" /><br />
+    
+            <label for="last-name">Last name:</label><br />
+            <input type="text" id="last-name" name="last-name" /><br />
+    
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" /><br />
+    
+            <label for="phone">Phone number (optional):</label><br />
+            <input type="tel" id="phone" name="phone" /><br />
+    
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message"></textarea><br />
+    
+            <input type="checkbox" id="privacy-policy" name="privacy-policy" />
+            <label for="privacy-policy">You agree to our friendly privacy policy</label><br />
+    
+            <button type="submit">Send message</button>
+          </form>
+    
+        </div>
       </section>
     </main>
 
     <footer>
       <section class="cta">
-        <div class="container"></div>
+        <div class="container">
+          <p>No long-term contracts. No catches. Simple.</p>
+          <p>Start your 30-day free trial. Cancel anytime.</p>
+          <button type="submit">View Demo</button>
+          <button type="submit">Get Started</button>
+        </div>
       </section>
 
       <section class="copyright">
-        <div class="container"></div>
+        <div class="container">
+          <p>2024 Web Programming Hack. All rights reserved.</p>
+        </div>
       </section>
     </footer>
   </body>
