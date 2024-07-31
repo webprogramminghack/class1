@@ -3,26 +3,105 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Assignment Class1 HTML</title>
   </head>
   <body>
     <header>
       <div class="container"></div>
+          <img src="/assets/svg/logo.svg" alt="Logo" class="logo" />
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </nav>
+      
+          <div class="buttons">
+            <button>Log in</button>
+            <button>Sign up</button>
+          </div>
+        </div>
     </header>
 
-    <main>
-      <section class="contact">
-        <div class="container"></div>
+    <section class="contact">
+      <div class="contact-wrapper">
+            <div class="contact-header">
+              <span>Contact us</span>
+              <h2>Get in touch</h2>
+              <p>We'd love to hear from you. Please fill out this form.</p>
+            </div>
+
+            <div class="contact-content">
+              <form action="">
+                <div class="name">
+                  <div class="first-name">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="firstName" id="first-name" placeholder="First name"/>
+                  </div>
+                  <div class="last-name">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="lastName" id="last-name" placeholder="Last name"/>
+                  </div>
+                </div>
+                <div class="email">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" placeholder="Email" />
+                </div>
+                <div class="phone">
+                  <label for="phone">Phone Number</label>
+                  <input type="phone" name="phone" id="phone" placeholder="Phone Number" />
+                </div>
+                <div class="message">
+                  <label for="message">Message</label>
+                  <textarea
+                    name="message" id="message" name="message" placeholder="Leave us a message..."
+                  ></textarea>
+                </div>
+                <br>
+                <div class="checkbox">
+                  <input
+                    type="checkbox"
+                    id="privacy-policy"
+                    name="privacyPolicy"
+                  />
+                  <label for="privacy-policy"
+                    >You agree to our
+                    <a href="#">friendly privacy policy</a>.</label
+                  >
+                </div>
+                <br>
+                <button type="submit" class="btn">Send message</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer>
       <section class="cta">
-        <div class="container"></div>
+        <div class="container">
+          <div class="cta-content">
+            <h2 class="title">No long-term contracts. No catches. Simple.</h2>
+            <p>Start your 30-day free trial. Cancel anytime</p>
+        </div>
+        <div class="cta-btn">
+          <a href="#" class="btn btn-secondary">
+            <img src="./assets/svg/play-circle.svg" alt="play icon" class="icon-play" />
+            <span>View demo</span>
+          </a>
+          <a href="#" class="btn btn-primary">Get Started</a>
+        </div>
       </section>
 
       <section class="copyright">
-        <div class="container"></div>
+        <div class="container">
+          <p class="copyright-text">
+            &copy; 2024 Web Programming Hack. All rights reserved.
+          </p>
+        </div>
       </section>
     </footer>
   </body>
